@@ -12,8 +12,6 @@ int main(void)
 	for (d = '0'; d < '9'; d++)
 	{
 	
-	for (p = d+1; p <= '9'; p++)
+	for (p = d + 1; p <= '9'; p++)
 	{
 	
-	return (0);
-}
