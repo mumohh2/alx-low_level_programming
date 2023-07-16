@@ -15,8 +15,5 @@ int main(void)
 	for (p = d+1; p <= '9'; p++)
 	{
 	
-	}
-	}
-
 	return (0);
 }
