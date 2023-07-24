@@ -2,7 +2,7 @@
 /**
  * print_array - a function that print n elements of an array
  * @a: away name
- * @n: is the number of elements of the away to be printed
+ * @n: is the number of elements of the array to be printed
  * Return: a and n inputs
  */
 void print_away(int *a, int n)
