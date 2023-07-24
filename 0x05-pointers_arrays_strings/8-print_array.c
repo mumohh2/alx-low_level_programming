@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+ * print_array - a function that print n elements of an array
+ * @a: away name
+ * @n: is the number of elements of the away to be printed
+ * Return: a and n inputs
+ */
+void print_away(int *a, int n)
+{
+	int i;
+
+	for (i = 0; i < (n - 1); i++)
+	{
+		printf("%d,", a[i]);
+	}
+	if (i == (n - 1))
+	{
+		printf("%d,", a[n - 1]);
+	}
+	printf("\n");
+}
