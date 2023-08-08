@@ -4,7 +4,7 @@
  * str_concat - get ends of input and add together for size
  * @s1: input one concat
  * @s2: input two concat
- * @Return: concat of s1 and s2
+ * Return: concat of s1 and s2
  */
 char *str_concat(char *s1, char *s2)
 {
