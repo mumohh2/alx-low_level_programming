@@ -1,16 +1,6 @@
-#include "0-object_like_macro.h"
-#include "0-object_like_macro.h"
-#include <stdio.h>
+#ifndef PI_H
+#define PI_H
 
-/**
- * main - check the code
- * Return: Always 0
- */
-int main(void)
-{
-	int z;
+#define PI 3.14159265359
 
-	z = 98 + SIZE;
-	printf("%d\n", z);
-	return (0);
-}
+#endif
