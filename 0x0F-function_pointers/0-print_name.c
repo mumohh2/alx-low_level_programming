@@ -7,13 +7,9 @@
  * @f: pointer to function
  * Retur: 0
  */
-void printName(const char *name)
+void print_name(char *name, void(*f)(char *))
 {
-	printf("Hello, %s!\n, name);
-}
-int main()
-{
-	char myName[] = "EMMANUEL";
-	printName(myName);
-	return 0;
+	if (name == NULL || f == NULL)
+		return;
+	f(name);
 }
