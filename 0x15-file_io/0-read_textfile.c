@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include <main.h>
 /**
  * read_text - read text file and print to STDOUT
  * @filename: text file being read
